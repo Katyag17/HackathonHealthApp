@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6253575D2DA1A0FA00BA8529 /* app.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6253575C2DA1A0ED00BA8529 /* app.gitignore */; };
+		6253575F2DA1A11700BA8529 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6253575E2DA1A11100BA8529 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6253573C2DA1990500BA8529 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		6253572E2DA1990300BA8529 /* MedMinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedMinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6253573B2DA1990500BA8529 /* MedMinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedMinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		625357452DA1990500BA8529 /* MedMinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedMinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6253575C2DA1A0ED00BA8529 /* app.gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = app.gitignore; sourceTree = "<group>"; };
+		6253575E2DA1A11100BA8529 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		625357252DA1990300BA8529 = {
 			isa = PBXGroup;
 			children = (
+				6253575E2DA1A11100BA8529 /* README.md */,
+				6253575C2DA1A0ED00BA8529 /* app.gitignore */,
 				625357302DA1990300BA8529 /* MedMinderApp */,
 				6253573E2DA1990500BA8529 /* MedMinderAppTests */,
 				625357482DA1990500BA8529 /* MedMinderAppUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6253575F2DA1A11700BA8529 /* README.md in Resources */,
+				6253575D2DA1A0FA00BA8529 /* app.gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
